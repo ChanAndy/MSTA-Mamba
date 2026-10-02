@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "MSTA-Mamba"
+type: software
+authors:
+  - family-names: Cao
+    given-names: Kangyang
+  - family-names: Meng
+    given-names: Gaofeng
+license: MIT
+date-released: 2026-10-02
+repository-code: "https://github.com/OWNER/MSTA-Mamba"
+preferred-citation:
+  type: conference-paper
+  title: "Multi-Scale Spatio-Temporal Alignment-Enhanced Mamba for End-diastolic and End-systolic Frame Detection in Echocardiography"
+  authors:
+    - family-names: Cao
+      given-names: Kangyang
+    - family-names: Li
+      given-names: Rebecca Sin Tung
+    - family-names: Zhou
+      given-names: Kang
+    - family-names: Huang
+      given-names: Yuhao
+    - family-names: Li
+      given-names: Xue
+    - family-names: Wong
+      given-names: Randolph Hung Leung
+    - family-names: Lee
+      given-names: Alex Pui Wai
+    - family-names: Hung
+      given-names: Kevin Kei Ching
+    - family-names: Leung
+      given-names: Ling Yan
+    - family-names: Graham
+      given-names: Colin A
+    - family-names: Liu
+      given-names: Hongbin
+    - family-names: Meng
+      given-names: Gaofeng
+  year: 2026
+  conference:
+    name: "IEEE International Conference on Bioinformatics and Biomedicine (BIBM)"
+

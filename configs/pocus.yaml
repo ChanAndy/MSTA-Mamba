@@ -1,0 +1,28 @@
+seed: 42
+dataset:
+  name: pocus
+  manifest: data/pocus/manifest.csv
+  image_size: 224
+  num_frames: 32
+  num_classes: 2
+model:
+  backbone: nvidia/MambaVision-S-1K
+  pretrained: true
+  feature_dims: [96, 192, 384, 768]
+  feature_dim: 256
+  num_classes: 2
+  num_frames: 32
+loss:
+  class_weights: [1.0, 5.0]
+  alpha: 0.4
+  beta: 0.2
+  rhythm_weight: 0.5
+train:
+  epochs: 50
+  batch_size: 4
+  workers: 4
+  lr: 0.0001
+  weight_decay: 0.0005
+  warmup_epochs: 5
+  output_dir: outputs/pocus
+
