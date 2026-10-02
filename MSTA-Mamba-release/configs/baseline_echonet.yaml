@@ -1,0 +1,21 @@
+seed: 42
+dataset:
+  name: echonet
+  root: data/echonet
+  metadata: data/echonet/FileList_with_ED_ES.csv
+  image_size: 112
+  num_frames: 32
+  num_classes: 3
+model:
+  backbone: nvidia/MambaVision-S-1K
+  feature_dims: [96, 192, 384, 768]
+train:
+  epochs: 40
+  batch_size: 16
+  micro_batch_size: 4
+  workers: 4
+  lr: 0.0001
+  weight_decay: 0.0005
+  warmup_epochs: 5
+  class_weights: [1.0, 10.0, 10.0]
+  output_dir: outputs/baseline_echonet

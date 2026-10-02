@@ -1,0 +1,9 @@
+MSTA-Mamba was developed from research code that originated from
+https://github.com/lxztju/pytorch_classification (MIT License, copyright
+xiangzhe_lu). The release implementation has been reorganized and rewritten
+around the architecture described in the accompanying BIBM paper.
+
+MambaVision is a separate NVIDIA project. Users are responsible for complying
+with its code and pretrained-weight license. EchoNet-Dynamic is distributed
+under its own data-use terms and is not included in this repository.
+
